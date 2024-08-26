@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Remote",
+  "description": "WhatsApp Remote is a chrome extension to send whatsapp messages with API",
+  "version": "1.0.0",
+  "icons": {
+    "128": "assets/icons/128.png",
+    "16": "assets/icons/16.png",
+    "48": "assets/icons/48.png",
+    "72": "assets/icons/72.png",
+    "96": "assets/icons/96.png"
+  },
+  "action": {
+    "default_title": "WhatsApp Remote",
+    "default_popup": "popup.html",
+    "default_icon": { "48": "assets/icons/48.png" }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [ "https://web.whatsapp.com/*" ],
+  "permissions": [ "tabs", "storage", "scripting" ],
+  "web_accessible_resources": [
+    {
+      "resources": ["client.js"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }
+  ]
+}

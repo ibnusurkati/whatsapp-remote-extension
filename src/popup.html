@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/assets/css/popup.css" />
+  </head>
+  <body class="bg-white justify-center">
+    <div class="w-[360px] flex flex-col p-5 border border-soli">
+      <img class="w-[180px] mx-auto" src="/assets/vectors/logo.svg" alt="Logo" srcset="/assets/vectors/logo.svg" />
+      <div class="font-light text-[12px] text-gray-500 mt-4 text-center">Control your WhatsApp from afar to make everything easier for you, good luck trying</div>
+      <div id="form-api-key" class="w-full mt-6 hidden">
+        <div class="text-[12px] font-semibold mb-1">API Key</div>
+        <div class="flex">
+          <input type="text" placeholder="API Key" class="input input-bordered input-sm w-full mb-1 rounded-r-none" />
+          <button class="btn btn-sm btn-success text-white rounded-l-none text-sm font-normal">Copy</button>
+        </div>
+        <div class="text-[11px] font-light mb-1 text-gray-500">This API key is used as the address for sending messages remotely using the API</div>
+      </div>
+      <div id="button-generate-api-key" class="mt-5 hidden">
+        <button class="btn btn-sm btn-success text-white w-full text-sm font-normal" id="button-generate-api-key-action">Generate API Key</button>
+      </div>
+      <div class="mt-6 text-[12px] font-semibold text-center">Support Me :</div>
+      <div class="mt-4 flex justify-center">
+        <a href="https://www.buymeacoffee.com/ibnusurkati" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Donate with PayPal" style="height: 35px !important; width: 140px !important" /></a>
+        <a href="https://paypal.me/ibnusurkati" target="_blank"><img src="https://raw.githubusercontent.com/ibnusurkati/whatsapp-remote-api/master/paypal.svg" alt="Buy Me A Coffee" style="height: 35px !important; width: 140px !important" /></a>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
