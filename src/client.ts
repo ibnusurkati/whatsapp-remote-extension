@@ -18,9 +18,6 @@ const onMessage = ({ data: { from, msg } }: MessageEvent<{ from: string; msg: Me
         case "text":
           chat.sendMessage(msg.text);
           break;
-        case "location":
-          chat.sendMessage(msg.text);
-          break;
       }
     });
   }
