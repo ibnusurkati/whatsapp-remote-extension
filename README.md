@@ -4,9 +4,9 @@
 
 <p align="center">WhatsApp Remote is a Chrome extension for controlling WhatsApp message delivery with an API</p>
 <p align="center">
-<a href="https://github.com/ibnusurkati/whatsapp-remote" target="_blank"><img src="https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote" alt="Release"></a>
-<a href="https://github.com/ibnusurkati/whatsapp-remote" target="_blank"><img src="https://img.shields.io/github/license/ibnusurkati/whatsapp-remote" alt="License"></a>
-<a href="https://github.com/ibnusurkati/whatsapp-remote" target="_blank"><img src="https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote/total" alt="Downloads"></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-extension" target="_blank"><img src="https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote-extension" alt="Release"></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-extension" target="_blank"><img src="https://img.shields.io/github/license/ibnusurkati/whatsapp-remote-extension" alt="License"></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-extension" target="_blank"><img src="https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote-extension/total" alt="Downloads"></a>
 <a href="https://paypal.me/ibnusurkati" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate"></a>
 </p>
 
