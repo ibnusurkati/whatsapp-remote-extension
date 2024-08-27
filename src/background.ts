@@ -48,6 +48,12 @@ chrome.runtime.onMessage.addListener(function (request, _, sendResponse) {
 });
 
 const validate = (cb: (auth: boolean) => void) => {
-  // TODO: validate key
-  cb ? cb(true) : void 0;
+  chrome.storage.local
+    .get(["credentials"])
+    .then(({ credentials }) => {
+      if (credentials) cb ? cb(true) : void 0;
+    })
+    .catch(() => {
+      cb ? cb(false) : void 0;
+    });
 };

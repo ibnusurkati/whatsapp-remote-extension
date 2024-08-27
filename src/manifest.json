@@ -18,12 +18,12 @@
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": [ "https://web.whatsapp.com/*" ],
-  "permissions": [ "tabs", "storage", "scripting" ],
+  "host_permissions": ["https://web.whatsapp.com/*", "http://localhost:9000/*"],
+  "permissions": ["tabs", "storage", "scripting"],
   "web_accessible_resources": [
     {
-      "resources": ["client.js"],
-      "matches": ["https://web.whatsapp.com/*"]
+      "matches": ["\u003Call_urls>"],
+      "resources": ["client.js"]
     }
   ]
 }

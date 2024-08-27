@@ -3,6 +3,7 @@
   if (storage.credentials) {
     document.getElementById("form-api-key")?.classList.remove("hidden");
     document.getElementById("button-generate-api-key")?.classList.add("hidden");
+    document.querySelector<HTMLInputElement>("#form-api-key input")!.value = storage.credentials;
   } else {
     document.getElementById("form-api-key")?.classList.add("hidden");
     document.getElementById("button-generate-api-key")?.classList.remove("hidden");
@@ -28,4 +29,9 @@ document.getElementById("button-generate-api-key-action")?.addEventListener("cli
     document.getElementById("button-generate-api-key")?.classList.add("hidden");
     document.querySelector<HTMLInputElement>("#form-api-key input")!.value = randomKey;
   });
+});
+
+document.getElementById("button-copy-api-key")?.addEventListener("click", function () {
+  const key = document.querySelector<HTMLInputElement>("#form-api-key input")?.value ?? "";
+  navigator.clipboard.writeText(key);
 });

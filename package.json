@@ -1,7 +1,6 @@
 {
   "name": "whatsapp-remote",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "npm-run-all \"build:code\" \"build:component\" \"tailwind:popup:build\" \"build:minify\"",

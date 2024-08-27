@@ -11,4 +11,21 @@ declare global {
   let WR = window.WR;
   let webpackJsonp = any;
   let webpackChunkwhatsapp_web_client = any;
+
+  type MessageDataDTO = {
+    type: string;
+    to: string;
+    text: string;
+    latitude: number;
+    longitude: number;
+    file: string;
+    caption: string;
+    mimetype: string;
+    fileName: string;
+    contacts: {
+      fullName: string;
+      organization: string;
+      phoneNumber: string;
+    }[];
+  };
 }
