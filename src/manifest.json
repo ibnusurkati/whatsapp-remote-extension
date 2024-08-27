@@ -18,7 +18,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": ["https://web.whatsapp.com/*", "http://localhost:9000/*"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
   "permissions": ["tabs", "storage", "scripting"],
   "web_accessible_resources": [
     {
